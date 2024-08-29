@@ -10,9 +10,4 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'trainning_Angular';
-
-  convert(data: string) {
-  const temp = 1000;
-  return data;
-}
 }
