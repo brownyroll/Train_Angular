@@ -24,7 +24,7 @@ pipeline {
         }
         stage('check process'){
             steps {
-                'docker ps'
+                sh 'docker ps'
             }
         }
     }
